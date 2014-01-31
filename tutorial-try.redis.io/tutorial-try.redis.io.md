@@ -9,10 +9,11 @@ Redis is a key-value store, often referred as a NoSQL database.
 
 ###Store and retrieve 
 
-{% gist 8729128 %}
-
+```
+SET server:name "fido"
+GET server:name => "fido"
+```
 
 
 [url-tutorial]: http://try.redis.io/
-[comment]: Gist filenames: following-tutorial-try.redis.io-NUMBER
-[notes][comment]
+<!--- Gist filenames: following-tutorial-try.redis.io-NUMBER -->
